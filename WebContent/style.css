@@ -1,0 +1,149 @@
+/* *********************************************************
+** RESET_COMMON 
+************************************************************/
+*
+{
+	margin: 0;
+	padding : 0;
+	box-sizing: border-box;
+}
+
+ul
+{ /*앞에 동그라미같은거 없앰*/	
+	list-style: none;
+}
+
+.wrapper{
+	margin: 10px auto;
+	padding: 20px;
+	min-height: 630px;
+}
+
+/* **********************************************
+** Service 
+************************************************/
+body{
+	margin: 0;
+}
+.service{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: black;
+	padding: 8px 12px;
+}
+
+.service a{
+	padding: 4px 6px;
+	color: white;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+/* *********************************************************
+** HEADER
+************************************************************/
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;	
+	align-items: center;
+	background-color: black;
+	padding: 8px 12px;
+}
+
+.navbar__logo{
+	font-size: 25px;
+	color: white;
+	padding: 8px 12px;
+}
+
+.navbar__title{
+	margin-left: 25px;	
+}
+
+.navbar__logo i{
+	color: white;
+}
+
+.navbar__menu{
+	display: flex;
+	list-style : none;
+	padding-left: 0;
+}
+
+.navbar__menu li{
+	text-align: center;
+}
+
+.sub__menu{
+	display:none;
+}
+
+.top__menu:hover .sub__menu{
+	display:block;
+}
+
+.menuLink,
+.subLink{
+	display:block;
+	width: 180px;
+	height: 40px;
+	padding: 7px 0;
+}
+
+.top__menu:hover .menuLink,
+.subLink:hover{
+	background-color: red;
+	border-radius: 4px;
+}
+
+.navbar__toggleBtn{
+	display: none;
+}
+
+/* *********************************************************
+** FOOTER
+************************************************************/
+.footer{
+	text-align: center;
+	margin-bottom: 0px;
+	background-color: yellow;
+	padding:10px 10px;
+	height: 100px;
+}
+
+.footer p, 
+.footer a{
+	color: blue;
+	margin: 5px auto;
+}
+/* *********************************************************
+** index frame
+************************************************************/
+#left{
+	width: 60%;
+	height: 600px;
+	float: left;
+	margin: 0px 5px;
+	padding: 10px 10px;
+	border: 1px solid black;
+}
+
+#right{
+	width: 37%;
+	height: 600px;
+	float: left;
+	margin: 0px 5px;
+	padding: 10px 10px;
+	border: 1px solid black;
+}
+
+#notice{
+	
+}
+
